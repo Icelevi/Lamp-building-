@@ -64,7 +64,7 @@ function hammerBroke() {
 
 function fixLamp() {
     if (situation == "broked")
-        img.src = "../assets/lampadadesligada.png"
+        img.src = "./assets/lampadadesligada.png"
     toggle_verify = "off"
     situation = "turnedoff"
     explosion.style.display = "none"
